@@ -9,9 +9,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font awesome kit -->
     <script src="https://kit.fontawesome.com/7896021e26.js" crossorigin="anonymous"></script>
+    <!-- Manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="font-[manrope]">
     <header class="mb-4 lg:mb-16  bg-gradient-to-t from-[#dbd7d710] to-[#c4c1c14b] border border-white">
     <div class="container mx-auto">
         <nav class="mt-6 px-6 mx-auto">
@@ -227,6 +231,49 @@
                 
             </div>
          </section>
+         <!-- Challenges Section -->
+          <section class="container mx-auto lg:border mb-20 p-6 rounded-2xl">
+            <div class="mx-auto text-center space-y-3 grid lg:grid-cols-2 gap-6 justify-center items-center">
+                <div class="flex flex-col items-center justify-center space-y-4">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-black">Keep Connect With US</h2>
+                    <p class="text-gray-500">We are always ready for you.Come in and explore more and discuss about it.</p>
+                    <img class="rounded-xl w-5/6" src="./assets/london.jpg" alt="">
+                </div>
+                <div class="space-y-4 px-1">
+                    <div class="collapse collapse-plus bg-slate-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium flex gap-5 items-center justify-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class="font-bold">Head Office address</h3>
+                        </div>
+                        <div class="collapse-content">
+                          <p>49 Featherstone Street,LONDON,UNITED KINGDOM</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-slate-300">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium flex gap-5 items-center justify-center">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3 class="font-bold">Email Address</h3>
+                        </div>
+                        <div class="collapse-content">
+                          <p>rinterio@gmail.com</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-slate-300 ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium flex gap-5 items-center justify-center">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Telephone</h3>
+                        </div>
+                        <div class="collapse-content">
+                          <p>+442052970269</p>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+          </section>
          <!-- Discuss Section -->
           <section class="mb-20 bg-cover" style="background-image: url(./assets/bg.jpg);">
            <div class="max-w-screen-md mx-auto  pt-14 text-center space-y-3 mb-10">
